@@ -31,7 +31,7 @@ const buttonCreate = document.querySelector("button[data-create]");
 const buttonDestroy = document.querySelector("button[data-destroy]");
 boxes.style.display = 'flex';
 boxes.style.alignItems = 'center';
-Ы
+
 
 buttonCreate.addEventListener('click', () => {
   //console.log(inputNumberEl.value);

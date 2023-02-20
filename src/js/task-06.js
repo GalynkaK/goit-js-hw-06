@@ -30,10 +30,12 @@ inputTextContent.addEventListener("blur", onInputBlur);
 
 function onInputBlur(event) {
   if (Number(event.currentTarget.value.length) === Number(inputLength)) {
-    inputTextContent.classList.add("valid")
-
+    inputTextContent.classList.add("valid");
+    inputTextContent.classList.remove("invalid");
   } else {
+    inputTextContent.classList.remove("valid");
     inputTextContent.classList.add("invalid");
   }
 };
+
 
